@@ -1,3 +1,5 @@
+# pytest-playwright integra Playwright con pytest (fixtures page, browser, context).
+# Además de instalar esto, el navegador se descarga una vez con: playwright install chromium
 certifi==2026.7.22
 charset-normalizer==3.5.2
 colorama==0.4.6

@@ -1,5 +1,6 @@
 .venv/
 __pycache__/
 .pytest_cache/
+# Carpeta donde Playwright guarda traces, screenshots y videos de las corridas.
 test-results/
 reports/

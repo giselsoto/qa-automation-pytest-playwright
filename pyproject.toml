@@ -1,6 +1,12 @@
 [tool.pytest.ini_options]
+# Dónde busca tests pytest.
 testpaths = ["tests"]
+# Opciones que se agregan siempre al correr pytest:
+# -ra         resumen al final de los tests que no pasaron.
+# --base-url  URL del sitio; los tests hacen page.goto("/"). Para cambiar de
+#             ambiente se cambia solo acá (como ENVIRONMENT en Echo).
 addopts = "-ra --base-url https://www.saucedemo.com"
+# Markers registrados; si un test usa uno que no está acá, pytest avisa.
 markers = [
     "smoke: quick checks that the app and the setup work",
 ]
