@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --base-url https://www.saucedemo.com"
+markers = [
+    "smoke: quick checks that the app and the setup work",
+]
