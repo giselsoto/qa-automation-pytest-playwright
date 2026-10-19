@@ -45,7 +45,8 @@ pytest --browser firefox        # another browser
 ## Roadmap
 
 - [x] Project setup and smoke test
-- [ ] API tests with fixtures for setup and teardown
-- [ ] Page Objects and UI tests for login, cart and checkout
-- [ ] Parametrized negative cases
+- [x] API tests with fixtures for setup and teardown
+- [x] Page Objects and UI tests for login
+- [x] Parametrized negative cases
+- [ ] UI tests for cart and checkout
 - [ ] CI with GitHub Actions and test reports
